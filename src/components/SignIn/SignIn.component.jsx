@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
 import { Button } from "@material-ui/core";
-import { isMobileOnly, withOrientationChange } from "react-device-detect";
 
 import "./signIn.css";
 
 const SignIn = (props) => {
-  // return <div id="oa_social_login"></div>;
   const { text, page, disabled, classes, color } = props;
   return (
     <Button
