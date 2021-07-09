@@ -24,6 +24,7 @@ const Lists = () => {
   const appContext = useContext(AppContext);
   const history = useHistory();
   const search = new URLSearchParams(useLocation().search);
+
   const handleClickOpen = () => {
     setOpen(true);
   };
